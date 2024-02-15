@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+
+
+body {
+    margin: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.avatar-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #495057; /* Dark grey border */
+    margin-bottom: 15px;
+}
+
+.info h3 {
+    color: #ca6702;
+    margin: 5px 0;
+}
+
+
+
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: linear-gradient(135deg, #495057 0%, #5e6770 100%);
+    color: #dee2e6;
+    border-radius: 20px;
+    border-bottom:7px solid #ca6702;
+    box-shadow: 0 4px 8px rgba(1, 1, 0, 1.0); /* Added shadow */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, border-color 0.3s ease-in-out; /* Transition for animation */
+
+}
+
+.card:hover {
+    border-color: #4cd137; /* Hover border color */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Hover shadow */
+    transform: scale(1.05); /* Hover scale */
+}
+
+
+.border-blue { 
+    border: 1px dotted blue;
+}
+
+
